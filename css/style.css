@@ -225,3 +225,68 @@ body{
     right: 325px;
     top: 340px;
 }
+.ham-menu{
+    display: none;
+}
+/* ***********************************
+************************************
+*********Tablet Responsive*********
+***********************************
+************************************ */
+@media screen and (max-width:768px){
+    /* background */
+    body{
+        background-image: url("../images/bg-img.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-color: hwb(0 24% 76%);
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        height: 100vh;
+        width: 100vw;
+        padding: 0px;
+        margin: 0px;
+     }
+     /* nav section */
+     .logo-text{
+        font-size: 15px;
+     }
+     .list-item{
+        margin-left:-270px;
+        
+     }
+     .list-item .list-items{
+        font-size: 12px;
+     }
+     .straigth-line{
+        margin-left: -270px;
+        margin-top: -20px;
+     }
+     .call-section{
+        font-size: 12px;
+     }
+     .phone-icon{
+        position: absolute;
+        right: 120px;
+        top: 25px;
+     }
+     .number-section{
+        position: absolute;
+        right: 15px;
+     }
+   
+     /* body section` */
+     .left-side{
+        margin-left: 20px;
+     }
+     .heading-text{
+        font-size: 40px;
+     }
+     .boxline{
+        width: 2px;
+        height:132px;
+        position: absolute;
+        right: 150px;
+        top: 316px;
+    }
+}
